@@ -1,0 +1,44 @@
+# ================================
+# Java / Maven
+# ================================
+backend/target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+# ================================
+# Node / React
+# ================================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.log
+npm-debug.log*
+
+# ================================
+# IDE
+# ================================
+.idea/
+.vscode/
+*.iml
+
+# ================================
+# OS
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# Secrets & Environment
+# ================================
+*.env
+application-local.properties
+.env.local
+.env.*.local
+
+# ================================
+# Database dumps
+# ================================
+*.sql.gz
+*.dump
